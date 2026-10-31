@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ruang Singgah | Street Coffe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/script.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="nav">
+  <div class="container">
+    <a class="navbar-brand" href="#atas"><span class="Ruang Singgah">
+    </span>Ruang Singgah</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Buka menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto align-items-md-center">
+        <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+        <li class="nav-item ms-md-2"><a class="btn btn-tombol btn-sm" href="#kontak">Booking</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="atas" class="hero">
+  <div class="container">
+    <p class="label label-amber">Ruang kerja dan kedai kopi</p>
+    <h1>Singgah sebentar sebelum pulang.</h1>
+    <p class="hero-isi">Meja yang nyaman, kopi yang enak, dan internet yang tidak bikin emosi. Datang sendiri atau bawa tim.</p>
+    <div class="d-flex flex-wrap gap-2">
+      <a href="#kontak" class="btn btn-tombol btn-lg">Pesan tempat</a>
+      <a href="#layanan" class="btn btn-garis btn-lg">Lihat layanan</a>
+    </div>
+  </div>
+</header>
+<div class="strip">
+  <div class="container">
+    <div class="row g-3 text-center text-md-start">
+      <div class="col-12 col-md-4"><span class="no no-amber">01</span> <strong>Tenang</strong> untuk fokus</div>
+      <div class="col-12 col-md-4"><span class="no no-teal">02</span> <strong>Terhubung</strong> Wi-Fi dan colokan</div>
+      <div class="col-12 col-md-4"><span class="no no-coral">03</span> <strong>Betah</strong> berjam-jam</div>
+    </div>
+  </div>
+</div>
+
+<main>
+<section id="tentang" class="bagian">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-12 col-lg-6">
+        <p class="label label-teal">Tentang kami</p>
+        <h2>Tempat singgah untuk yang sedang berjalan.</h2>
+        <p class="baca">Ruang Singgah berawal dari kebutuhan sederhana: tempat mengerjakan tugas, rapat kecil, atau sekadar duduk tenang tanpa harus memesan banyak hal.</p>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="row g-3">
+          <div class="col-12 col-sm-6">
+            <div class="mini mini-teal"><span class="ikon">♨</span><h3>Kopi dan teman kerja</h3><p>Minuman dan camilan untuk menemani.</p></div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="mini mini-coral"><span class="ikon">▤</span><h3>Dibuat untuk bekerja</h3><p>Meja lega, kursi nyaman.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="layanan" class="bagian bagian-gelap">
+  <div class="container">
+    <p class="label label-amber">Layanan</p>
+    <h2>Pilih sesuai kebutuhanmu hari ini.</h2>
+    <div class="row g-3 mt-1">
+      <div class="col-12 col-lg-7">
+        <article class="kartu k-amber"><span class="ikon">▤</span><h3>Meja kerja bersama</h3><p>Duduk bebas di area bersama dengan Wi-Fi cepat .</p></article>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-5">
+        <article class="kartu k-teal"><span class="ikon">♨</span><h3>Kedai kopi</h3><p>Kopi, teh, dan makanan ringan.</p></article>
+      </div>
+      <div class="col-12 col-lg-7">
+        <article class="kartu k-sky"><span class="ikon">✦</span><h3>Singgah Sejenak</h3><p>Tempat diskusi atau kumpul komunitas.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container text-center">
+    <h2>Siap singgah hari ini?</h2>
+    <p class="mb-3">Pesab Lewat sini aja biar cepat.</p>
+    <a href="#kontak" class="btn btn-tombol btn-lg">Isi formulir pesanan</a>
+  </div>
+</section>
+
+<section id="kontak" class="bagian bagian-sky">
+  <div class="container">
+    <div class="row g-4 g-lg-5">
+      <div class="col-12 col-lg-5">
+        <p class="label label-teal">pesanan</p>
+        <h2>Pesan tempat.</h2>
+        <p class="baca">Isi formulir, kami hubungi lewat email untuk konfirmasi.</p>
+        <p class="baca mb-0"><strong>Alamat:</strong> isi alamat Ruang Singgah di sini.</p>
+      </div>
+      <div class="col-12 col-lg-7">
+        <form id="formBooking" class="kotak-form" novalidate>
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" id="nama" class="form-control" required minlength="3" autocomplete="name">
+            <div class="invalid-feedback">Nama minimal 3 huruf.</div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Kontak WhatsApp</label>
+            <input type="text" id="email" class="form-control" required autocomplete="tel">
+            <div class="invalid-feedback">Format kontak belum benar.</div>
+          </div>
+          <div class="mb-3">
+            <label for="keperluan" class="form-label">Pesanan</label>
+            <select id="keperluan" class="form-select" required>
+              <option value="">Pilih pesanan</option>
+              <option>Take away</option>
+              <option>dine in</option>
+
+            </select>
+            <div class="invalid-feedback">Pilih salah satu pesanan.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Catatan</label>
+            <textarea id="pesan" class="form-control" rows="3" required minlength="10" maxlength="200"></textarea>
+            <div class="form-text"><span id="hitung">0</span>/200 karakter</div>
+            <div class="invalid-feedback">Tulis catatan minimal 10 karakter.</div>
+          </div>
+          <button type="submit" class="btn btn-kirim">Kirim permintaan</button>
+          <p id="hasil" class="alert alert-success mt-3 mb-0 d-none" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="kaki">
+  <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span>Ruang Singgah</span>
+    <span>Tugas Pemrograman Web, Bootstrap 5.0.2</span>
+    <a href="#atas">Ke atas</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
