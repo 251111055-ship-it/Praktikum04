@@ -1,0 +1,29 @@
+:root {
+  --hutan: #22372b;
+  --hutan-tua: #172419;
+  --amber: #74be7c;
+  --teal: #2a9d8f;
+  --coral: #e76f51;
+  --sky: #f7fffe;
+  --putih: #0e0d0d;
+  --tinta: #e8e0e0;
+}
+html { scroll-behavior: smooth; }
+body { font-family: "Nunito Sans", sans-serif; color: var(--tinta); background: var(--putih); padding-top: 62px; font-size: 1.05rem; }
+h1, h2, h3, .navbar-brand { font-family: "Bitter", serif; }
+h2 { font-weight: 800; margin-bottom: 1rem; }
+section { scroll-margin-top: 62px; }
+.bagian { padding: 4rem 0; }
+.baca { max-width: 38rem; }
+.catatan { font-size: .85rem; color: #5b6b61; }
+.ikon { display: inline-flex; width: 2.5rem; height: 2.5rem; align-items: center; justify-content: center; border-radius: 50%; font-size: 1.25rem; margin-bottom: .6rem; background: rgba(255,255,255,.55); }
+.label { display: inline-block; font-weight: 700; font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; padding: .2rem .6rem; border-radius: 2rem; margin-bottom: .75rem; }
+.label-amber { background: var(--amber); color: var(--hutan-tua); }
+.label-teal { background: var(--teal); color: #fff; }
+.label-coral { background: var(--coral); color: #fff; }
+.btn-tombol { background: var(--amber); color: var(--hutan-tua); font-weight: 700; border: 2px solid var(--amber); }
+.btn-tombol:hover { background: #fff; border-color: #fff; color: var(--hutan-tua); }
+.btn-garis { color: #fff; border: 2px solid #fff; font-weight: 700; }
+.btn-garis:hover { background: #fff; color: var(--hutan); }
+.btn:focus, .form-control:focus, .form-select:focus { outline: 3px solid var(--amber); outline-offset: 2px; box-shadow: none; }
+.hero { min-height: calc(100vh - 62px); display: flex; align-items: center; padding: 4rem 0; color: #fff; background: linear-gradient(90deg, rgba(23,36,25,.86), rgba(23,36,25,.35)), url("../image/WhatsApp%20Image%202026-10-31%20at%2011.35.10.jpeg") center/cover no-repeat; }
